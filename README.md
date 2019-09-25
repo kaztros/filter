@@ -5,7 +5,7 @@ Having written it a couple of years ago, I haven't had occasion to use it once. 
 You shouldn't use it either."
  -Rob Pike
 
-" hashtag cantstop, hashtag wontstop"
+"#CantStop. #WontStop."
  -kaz
 
 But seriously: forked, because I want the function-argument verification to be less restrictive.  So filter-functions are okay if their arg-types are convertible from the provided args.
