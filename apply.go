@@ -166,7 +166,7 @@ func goodFunc(fn reflect.Value, types ...reflect.Type) bool {
 		return false
 	}
 	for i := 0; i < len(types)-1; i++ {
-		if fn.Type().In(i) != types[i] {
+		if ! types[i].ConvertibleTo(fn.Type().In(i)) {
 			return false
 		}
 	}
